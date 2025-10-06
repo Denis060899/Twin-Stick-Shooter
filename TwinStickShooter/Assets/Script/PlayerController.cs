@@ -48,6 +48,6 @@ public class PlayerController : Entity
 
     public override void OnDeath()
     {
-        
+        Destroy(gameObject);
     }
 }
