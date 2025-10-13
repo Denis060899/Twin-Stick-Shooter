@@ -64,6 +64,8 @@ public class NPCManager : MonoBehaviour
                     spawnPosition = new Vector2(Random.Range(m_horizontalBounds.x, m_horizontalBounds.y), m_verticalBounds.x);
                     break;
             }
+
+            temp.transform.position = spawnPosition;
         }
     }
 
